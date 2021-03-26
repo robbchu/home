@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Jui",
   middleName: "Robert",
   lastName: "Chu",
-  message: " M.S. in Computer Science | Research Assistant | Software Engineer ",
+  message: " M.S. in Computer Science | Software Engineer | Research Assistant ",
   icons: [
     {
       image: "fa-github",
