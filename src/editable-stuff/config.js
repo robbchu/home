@@ -98,8 +98,8 @@ const skills = {
   hardSkills: [
     { name: "Data Structures & Algorithms", value: 90 },
     { name: "OOP: Python/C++", value: 90 },
-    { name: "Ruby on Rails", value: 80 },
-    { name: "DBMS & SQL", value: 90 },
+    { name: "MVC: Ruby on Rails", value: 80 },
+    { name: "DBMS: SQL, NoSQL", value: 90 },
     { name: "RESTful APIs", value: 70 },
     { name: "HTML, CSS, JavaScript", value: 70 },
     { name: "Deep Leaning & PyTorch", value: 80 },
