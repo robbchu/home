@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Jui",
   middleName: "Robert",
   lastName: "Chu",
-  message: " Hello World! ",
+  message: " M.S. in Computer Science | Research Assistant | Software Engineer ",
   icons: [
     {
       image: "fa-github",
@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "Robert is a CS major and researcher in Machine Understanding, working toward Software Development to unleash his knowledge. Robert loves to deal with social issues by initiating valuable research topics and to apply his academic experience to industrial solutions, and he is ready to explore MORE!",
-  resume: "https://drive.google.com/file/d/1C9xJ3rLmGcgAq1_b6zi_Qlkk28JO4B-s/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1oPNTf5x1EY4gbvOdj5Z_39fiFEB-F4qZ/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -63,7 +63,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "robbchu", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 2,
   specificRepos: [],
 };
 
@@ -96,14 +96,13 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Data Structures", value: 90 },
-    { name: "Python", value: 90 },
-    { name: "C/C++", value: 80 },
+    { name: "Data Structures & Algorithms", value: 90 },
+    { name: "OOP: Python/C++", value: 90 },
     { name: "Ruby on Rails", value: 80 },
-    { name: "SQL", value: 90 },
-    { name: "HTML/CSS", value: 70 },
-    { name: "JavaScript", value: 70 },
-    { name: "PyTorch", value: 80 },
+    { name: "DBMS & SQL", value: 90 },
+    { name: "RESTful APIs", value: 70 },
+    { name: "HTML, CSS, JavaScript", value: 70 },
+    { name: "Deep Leaning & PyTorch", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 90 },
@@ -126,11 +125,11 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Research Assistant',// Here Add Company Name
+      role: 'Research Assistant',
       companylogo: require('../assets/img/ntu.jpg'),
       date: 'Sep 2019 – Jan 2020',
     },
