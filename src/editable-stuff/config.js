@@ -129,6 +129,11 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'MSCS Student',
+      companylogo: require('../assets/img/cu.jpg'),
+      date: 'Sep 2020 – May 2022',
+    },
+    {
       role: 'Research Assistant',
       companylogo: require('../assets/img/ntu.jpg'),
       date: 'Sep 2019 – Jan 2020',
