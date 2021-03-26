@@ -129,17 +129,17 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'MSCS Student',
-      companylogo: require('../assets/img/cu.jpg'),
+      role: 'MSCS Student @ Columbia University',
+      companylogo: require('../assets/img/cu.png'),
       date: 'Sep 2020 – May 2022',
     },
     {
-      role: 'Research Assistant',
+      role: 'Research Assistant @ National Taiwan University',
       companylogo: require('../assets/img/ntu.jpg'),
       date: 'Sep 2019 – Jan 2020',
     },
     {
-      role: 'Software Engineer Intern',
+      role: 'Software Engineer Intern @ InQuartik',
       companylogo: require('../assets/img/inq.jpg'),
       date: 'Jul 2019 – Aug 2019',
     },
