@@ -13,7 +13,7 @@ const mainBody = {
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/robbchu",
     },
     {
       image: "fa-facebook",
@@ -47,8 +47,8 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/robertchu.jpg"),
-  imageSize: 375,
+  imageLink: require("../editable-stuff/robertchu_2.jpg"),
+  imageSize: 225,
   message:
     "Robert is a CS major and researcher in Machine Understanding, working toward Software Development to unleash his knowledge. Robert loves to deal with social issues by initiating valuable research topics and to apply his academic experience to industrial solutions, and he is ready to explore MORE!",
   resume: "https://drive.google.com/file/d/1oPNTf5x1EY4gbvOdj5Z_39fiFEB-F4qZ/view?usp=sharing",
@@ -64,7 +64,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "robbchu", //i.e."johnDoe12Gh"
   reposLength: 2,
-  specificRepos: [],
+  specificRepos: ["MentalThrive", "UnschedulePlus"],
 };
 
 // Leadership SECTION
@@ -99,8 +99,9 @@ const skills = {
     { name: "Data Structures & Algorithms", value: 90 },
     { name: "OOP: Python/C++", value: 90 },
     { name: "MVC: Ruby on Rails", value: 80 },
+    { name: "Cloud Computing: AWS", value: 75 },
     { name: "DBMS: SQL, NoSQL", value: 90 },
-    { name: "RESTful APIs", value: 70 },
+    { name: "RESTful APIs", value: 80 },
     { name: "HTML, CSS, JavaScript", value: 70 },
     { name: "Deep Leaning & PyTorch", value: 80 },
   ],
@@ -121,7 +122,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "robertchu921@gmail.com",
+  email: "robert.chu@columbia.edu",
 };
 
 const experiences = {
@@ -132,6 +133,11 @@ const experiences = {
       role: 'MSCS Student @ Columbia University',
       companylogo: require('../assets/img/cu.png'),
       date: 'Sep 2020 – May 2022',
+    },
+    {
+      role: 'Software Engineer Intern @ Foxconn Industrial AI',
+      companylogo: require('../assets/img/foxconn.png'),
+      date: 'Jun 2021 – Sep 2021',
     },
     {
       role: 'Research Assistant @ National Taiwan University',
