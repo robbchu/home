@@ -6,10 +6,10 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Jui",
-  middleName: "Robert",
+  firstName: "Robert",
+  middleName: "",
   lastName: "Chu",
-  message: " M.S. in Computer Science | Software Engineer | Research Assistant ",
+  message: " Computer Science | Software Engineer | Research Assistant ",
   icons: [
     {
       image: "fa-github",
@@ -25,7 +25,7 @@ const mainBody = {
     },
     {
       image: "fa-twitter",
-      url: "https://twitter.com/robertchu97",
+      url: "",
     },
   ],
 };
@@ -47,10 +47,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/robertchu_2.jpg"),
-  imageSize: 225,
+  imageLink: require("../editable-stuff/robertchu.jpg"),
+  imageSize: 150,
   message:
-    "Robert is a CS major and researcher in Machine Understanding, working toward Software Development to unleash his knowledge. Robert loves to deal with social issues by initiating valuable research topics and to apply his academic experience to industrial solutions, and he is ready to explore MORE!",
+    "Loading...",
   resume: "https://drive.google.com/file/d/1oPNTf5x1EY4gbvOdj5Z_39fiFEB-F4qZ/view?usp=sharing",
 };
 
@@ -60,7 +60,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "robbchu", //i.e."johnDoe12Gh"
   reposLength: 2,
@@ -96,7 +96,6 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Data Structures & Algorithms", value: 90 },
     { name: "OOP: Python/C++", value: 90 },
     { name: "MVC: Ruby on Rails", value: 80 },
     { name: "Cloud Computing: AWS", value: 75 },
@@ -121,7 +120,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "",
   email: "robert.chu@columbia.edu",
 };
 
@@ -129,25 +128,20 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
-    {
-      role: 'MSCS Student @ Columbia University',
-      companylogo: require('../assets/img/cu.png'),
-      date: 'Sep 2020 – May 2022',
+    { 
+      companylogo: require('../assets/img/meta-small.png'),
     },
     {
-      role: 'Software Engineer Intern @ Foxconn Industrial AI',
       companylogo: require('../assets/img/foxconn.png'),
-      date: 'Jun 2021 – Sep 2021',
     },
     {
-      role: 'Research Assistant @ National Taiwan University',
-      companylogo: require('../assets/img/ntu.jpg'),
-      date: 'Sep 2019 – Jan 2020',
+      companylogo: require('../assets/img/cu.png'),
     },
     {
-      role: 'Software Engineer Intern @ InQuartik',
       companylogo: require('../assets/img/inq.jpg'),
-      date: 'Jul 2019 – Aug 2019',
+    },
+    {
+      companylogo: require('../assets/img/ntu.jpg'),
     },
   ]
 }

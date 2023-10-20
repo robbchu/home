@@ -14,7 +14,7 @@ const Experience = ({experiences}) => {
                     <h2 className="display-4 mb-5 text-center">
                         {experiences.heading}
                     </h2>
-                    <Row>
+                    <Row className="flex-container justify-content-center align-items-center">
                         {
                             experiences.data.map(data => {
                                 return <ExperienceCard key={data.company} data={data} />
